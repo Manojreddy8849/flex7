@@ -1,0 +1,49 @@
+.flex-container{
+    display: flex;
+    padding: 10px;
+    gap: 5px;
+    flex-wrap: wrap-reverse;
+    /* flex-wrap: wrap; */
+    
+}
+.flex-container>div{
+    height: 100px;
+    border: 2px solid;
+    flex-shrink: 0;
+    
+    
+}
+.flex-child1{
+    background-color: aqua;
+    width: 250px;
+    
+    
+}
+.flex-child2{
+    background-color: aquamarine;
+    width: 350px;
+    
+    
+}
+.flex-child3{
+    background-color: blue;
+    width: 450px;
+    
+}
+.flex-child4{
+    background-color: aqua;
+    width: 550px;
+    
+}
+.flex-child5{
+    background-color: aquamarine;
+    width: 650px;
+    
+    
+}
+.flex-child6{
+    background-color: blue;
+    width: 750px;
+    
+}
+    
